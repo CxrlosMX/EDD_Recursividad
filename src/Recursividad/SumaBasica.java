@@ -35,7 +35,7 @@ public class SumaBasica {
             if (b == 0) {
                 return a;
             } else {
-                return 1 + suma(a, b - 1);
+                return 1 + suma(a-1, b );
             }
 
         }
